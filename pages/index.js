@@ -16,12 +16,7 @@ export default function Home() {
             Next.js Video Upload to Cloudinary Demo
           </h1>
           <Upload />
-          <p className="pt-5 text-xl">
-            Demo by{" "}
-            <a href="https://tpiros.dev" className="underline">
-              Tamas Piros
-            </a>
-          </p>
+         
         </div>
       </main>
     </div>
