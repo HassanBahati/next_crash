@@ -1,5 +1,5 @@
 import Head from 'next/head'
-
+import { Upload } from '../components/Upload';
 export default function Home() {
   return (
   <div>
@@ -8,8 +8,9 @@ export default function Home() {
       <meta name="keywords" content="web development, programming"/>
     </Head>
     <h1>
-      Welcome to Next 
+      Welcome to Next Upload 
     </h1>
+    <Upload />;
   </div>
     )
 }
