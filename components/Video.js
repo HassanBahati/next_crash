@@ -9,12 +9,13 @@ export function Video({ publicId }) {
     return <></>;
   }
   return (
+    //   seeting a video to auto play after the upload is succcessful 
     <video
       className={`${videoPublicId.length === 0 ? "hidden" : "block m-4"}`}
       autoPlay
       controls
       muted
-      src={`https://res.cloudinary.com/tamas-demo/video/upload/vc_auto,q_auto,w_800/${videoPublicId}`}
+      src={``}
     ></video>
   );
 }
